@@ -1,3 +1,60 @@
+
+/*
+*Fonts to be used on Home
+*OpenSans
+*/
+@font-face {
+  font-family:  'OpenSans';
+  src: url("Fonts/OpenSans-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family:  'OpenSans';
+  src: url("Fonts/OpenSans-Bold.ttf") format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+
+/*
+*RobotoSlab
+*/
+@font-face {
+  font-family:  'RobotoSlab';
+  src: url("Fonts/RobotoSlab-Regular.ttf") format('truetype');
+  font-weight: 500;
+  font-style: normal;
+
+}
+@font-face {
+  font-family:  'RobotoSlab';
+  src: url("Fonts/RobotoSlab-Thin.ttf") format('truetype');
+
+
+}
+
+
+.body-font {
+  font-family: "RobotoSlab";
+  font-weight: 500;
+
+}
+
+
+.banner-title {
+  font-family: 'OpenSans';
+  font-weight: bolder;
+  font-style: normal;
+}
+
+a {
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*
+*Button behavior
+*/
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
@@ -23,19 +80,31 @@ body {
     padding: 20%;
 }
 
+.contact {
+  margin-top: 2.5em;
+}
+
 .about-me {
     padding-top: 2.5em;
+
+}
+.name {
+  margin-bottom: 2em;
 }
 
 p > a{
-    margin-top: 15em;
+    margin-top: 5em;
+}
+
+.links {
+  padding-bottom: 10em;
 }
 /*
-*for i
+*portrait image
 */
 img {
     width: 300px;
-    margin-top: 15em;
+    margin-top: 2em;
     /* height: auto; */
     /* padding-top: 10em; */
     padding-bottom:0.5em;
@@ -75,3 +144,4 @@ img {
   color: rgb(255, 255, 255);
   border-bottom-color: #fff;
 }
+
