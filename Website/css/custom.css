@@ -31,6 +31,7 @@
 
 }
 
+
 .body-font {
   font-family: "RobotoSlab";
   font-weight: 500;
@@ -84,19 +85,26 @@ body {
 }
 
 .about-me {
-    padding-top: 3.5em;
+    padding-top: 2.5em;
 
+}
+.name {
+  margin-bottom: 2em;
 }
 
 p > a{
-    margin-top: 15em;
+    margin-top: 5em;
+}
+
+.links {
+  padding-bottom: 10em;
 }
 /*
 *portrait image
 */
 img {
     width: 300px;
-    margin-top: 15em;
+    margin-top: 2em;
     /* height: auto; */
     /* padding-top: 10em; */
     padding-bottom:0.5em;
