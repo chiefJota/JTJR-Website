@@ -102,7 +102,7 @@ p > a{
 /*
 *portrait image
 */
-img {
+.portrait-img {
     width: 300px;
     margin-top: 2em;
     /* height: auto; */
@@ -112,6 +112,16 @@ img {
     border-radius: 50%;
     background-color: #c2c2c3 !important;
     
+}
+
+/*
+* Social Media Icons
+*/
+
+.sm-icon{
+  margin-right: 0.5em;
+  max-width: 64px;
+  max-height: 80px;
 }
 
 /*
